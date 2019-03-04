@@ -1,6 +1,8 @@
 Introduction to TypeScript
 ==========================
 
+Support available [here](https://docs.google.com/presentation/d/1TFGp_eKQyYPtpO18ROCeszZi6z0CqqFPgvnxIY50InA/edit?usp=sharing)
+
 
 Install globaly
 ---------------
@@ -37,5 +39,11 @@ in order to specify source folder.
 Now, you can compile project typing:
 
 ```bash
-tsc -b ./src
+tsc
 ```
+or
+
+```bash
+tsc --watch
+```
+to compile on the fly 
